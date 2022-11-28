@@ -3,6 +3,7 @@ public class Main {
 
         Persona juan = new Persona("Juan");
         juan.saludar();
+        juan.mostrarMensaje();
     }
 
     static class Persona{
@@ -11,7 +12,11 @@ public class Main {
             this.nombre = nombre;
         }
         public void saludar(){
-            System.out.println("Hola mi nombre es " + nombre);
+            System.out.print("Hola mi nombre es " + nombre);
+        }
+
+        public void mostrarMensaje(){
+            System.out.println(" y estoy aprendiendo a hacer un pull request.");
         }
     }
 
