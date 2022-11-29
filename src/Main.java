@@ -4,6 +4,7 @@ public class Main {
         Persona juan = new Persona("Juan");
         juan.saludar();
         juan.mostrarMensaje();
+        juan.mostrarMensaje2();
     }
 
     static class Persona{
@@ -18,6 +19,11 @@ public class Main {
         public void mostrarMensaje(){
             System.out.println(" y estoy aprendiendo a hacer un pull request.");
         }
+
+        public void mostrarMensaje2(){
+            System.out.println("Con practica mejoraré");
+        }
+
     }
 
 }
